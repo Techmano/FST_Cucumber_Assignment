@@ -10,6 +10,6 @@ Feature: FST Assignment
 
     Examples: 
       | username | password | status  |
-      | makser42 |  12345   | success |
+      | medu1232 |  12345   | success |
       
 

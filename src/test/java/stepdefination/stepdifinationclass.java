@@ -71,7 +71,10 @@ public class stepdifinationclass {
 		Thread.sleep(4000);
 		String comp = driver.findElement(By.xpath("//div[@class='alert alert-success']")).getText();
 		String match = "The message has been sent to Monish Kumar";
-		if(comp==match)
+		
+		System.out.println(comp);
+		
+		if(comp.equals(match))
 		{
 		System.out.println("Message sent");
 		}
